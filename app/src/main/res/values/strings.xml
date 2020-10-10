@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalculadoraSalario</string>
+    <string name="app_title">Calculadora de Salário Líquido</string>
+    <string name="lbl_salario_bruto">Salário Bruto R$</string>
+    <string name="lbl_num_dependentes">Número dependentes</string>
+    <string name="lbl_outros_descontos">Outros Descontos R$</string>
+    <string name="hint_no_money">0.00</string>
+    <string name="lbl_zero">0</string>
+    <string name="lbl_calcular">Calcular</string>
+</resources>
