@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.calculadorasalario.enums.IntentKeys;
 
@@ -35,5 +36,10 @@ public class ResultadoActivity extends AppCompatActivity {
         String msg = intent.getStringExtra(key.getValor());
         double doubleParsed = Double.parseDouble(msg);
         return doubleParsed;
+    }
+
+    public void onClickVoltar(View view) {
+        Intent backIntent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(backIntent);
     }
 }

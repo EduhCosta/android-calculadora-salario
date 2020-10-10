@@ -108,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
-                android:text="@string/lbl_outros_descontos"
+                android:text="@string/lbl_descontos"
                 android:textColor="#3F51B5" />
 
             <TextView
@@ -142,12 +142,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
-                android:text="Salário liquido"
+                android:text="@string/lbl_salario_liquido"
                 android:textColor="#3F51B5"
                 android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/valSalarioBruto"
+                android:id="@+id/valSalarioLiquido"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -163,17 +163,17 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/lblResultDescontos"
+                android:id="@+id/lblPercentDescontos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
                 android:layout_weight="1"
-                android:text="Descontos"
+                android:text="@string/lbl_descontos"
                 android:textColor="#3F51B5"
                 android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/valINSS"
+                android:id="@+id/valPercentDescontos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -193,7 +193,7 @@
         android:onClick="onClickVoltar"
         android:paddingHorizontal="24dp"
         android:paddingVertical="8dp"
-        android:text="Voltar"
+        android:text="@string/lbl_voltar"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="18sp"

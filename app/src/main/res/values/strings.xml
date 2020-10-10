@@ -10,4 +10,7 @@
     <string name="lbl_resultado">Resultado</string>
     <string name="lbl_inss">INSS</string>
     <string name="lbl_irrf">IRRF</string>
+    <string name="lbl_salario_liquido">Salário liquido</string>
+    <string name="lbl_descontos">Descontos</string>
+    <string name="lbl_voltar">Voltar</string>
 </resources>
